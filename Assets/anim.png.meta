@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 8f430dbf5c65a934385399738c2604ba
+timeCreated: 1487350166
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anim_0
+    21300002: anim_1
+    21300004: anim_2
+    21300006: anim_3
+    21300008: anim_4
+    21300010: anim_5
+    21300012: anim_6
+    21300014: anim_7
+    21300016: anim_8
+    21300018: anim_9
+    21300020: anim_10
+    21300022: anim_11
+    21300024: anim_12
+    21300026: anim_13
+    21300028: anim_14
+    21300030: anim_15
+    21300032: anim_16
+    21300034: anim_17
+    21300036: anim_18
+    21300038: anim_19
+    21300040: anim_20
+    21300042: anim_21
+    21300044: anim_22
+    21300046: anim_23
+    21300048: anim_24
+    21300050: anim_25
+    21300052: anim_26
+    21300054: anim_27
+    21300056: anim_28
+    21300058: anim_29
+    21300060: anim_30
+    21300062: anim_31
+    21300064: anim_32
+    21300066: anim_33
+    21300068: anim_34
+    21300070: anim_35
+    21300072: anim_36
+    21300074: anim_37
+    21300076: anim_38
+    21300078: anim_39
+    21300080: anim_40
+    21300082: anim_41
+    21300084: anim_42
+    21300086: anim_43
+    21300088: anim_44
+    21300090: anim_45
+    21300092: anim_46
+    21300094: anim_47
+    21300096: anim_48
+    21300098: anim_49
+    21300100: anim_50
+    21300102: anim_51
+    21300104: anim_52
+    21300106: anim_53
+    21300108: anim_54
+    21300110: anim_55
+    21300112: anim_56
+    21300114: anim_57
+    21300116: anim_58
+    21300118: anim_59
+    21300120: anim_60
+    21300122: anim_61
+    21300124: anim_62
+    21300126: anim_63
+    21300128: anim_64
+    21300130: anim_65
+    21300132: anim_66
+    21300134: anim_67
+    21300136: anim_68
+    21300138: anim_69
+    21300140: anim_70
+    21300142: anim_71
+    21300144: anim_72
+    21300146: anim_73
+    21300148: anim_74
+    21300150: anim_75
+    21300152: anim_76
+    21300154: anim_77
+    21300156: anim_78
+    21300158: anim_79
+    21300160: anim_80
+    21300162: anim_81
+    21300164: anim_82
+    21300166: anim_83
+    21300168: anim_84
+    21300170: anim_85
+    21300172: anim_86
+    21300174: anim_87
+    21300176: anim_88
+    21300178: anim_89
+    21300180: anim_90
+    21300182: anim_91
+    21300184: anim_92
+    21300186: anim_93
+    21300188: anim_94
+    21300190: anim_95
+    21300192: anim_96
+    21300194: anim_97
+    21300196: anim_98
+    21300198: anim_99
+    21300200: anim_100
+    21300202: anim_101
+    21300204: anim_102
+    21300206: anim_103
+    21300208: anim_104
+    21300210: anim_105
+    21300212: anim_106
+    21300214: anim_107
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 47
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_5
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 32
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_6
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 32
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_7
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 32
+        width: 86
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_8
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 32
+        width: 86
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_9
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 32
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_10
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 32
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_17
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 32
+        width: 118
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2402
+        height: 26
+      alignment: 9
+      pivot: {x: 0.49949193, y: 0.48847765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_107
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 33
+        width: 118
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_11
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 78
+        width: 384
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_3
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 105
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 31
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: anim_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 47
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

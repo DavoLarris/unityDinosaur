@@ -13,9 +13,9 @@ public class destroyScript : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D coll)
     {
-        DestroyObject(collision.gameObject);
+        DestroyObject(coll.gameObject);
         Debug.Log("Collision and destroyed");
     }
 }

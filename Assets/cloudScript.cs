@@ -27,9 +27,9 @@ public class cloudScript : MonoBehaviour {
     private void spawnCloud()
     {
         GameObject freshCloud = Instantiate(cloud, transform.position, Quaternion.identity) as GameObject;
-        float scale = Random.Range(2, 7);
+        float scale = Random.Range(1, 5);
         freshCloud.transform.localScale = new Vector3(scale, scale, 0); //tamaño
-        freshCloud.transform.position = new Vector3(11, Random.Range(0.5f, 4.6f),1); 
+        freshCloud.transform.position = new Vector3(14, Random.Range(1, 4),1); 
         freshCloud.GetComponent<Rigidbody2D>().velocity = Vector3.left * (scale + 5);
         Debug.Log("Created cloud");
     }

@@ -24,9 +24,10 @@ public class cactusGenScript : MonoBehaviour
     {
         GameObject freshCactus = Instantiate(cactus, transform.position, Quaternion.identity) as GameObject;
         float scale = Random.Range(2, 4);
-        freshCactus.transform.localScale = new Vector3(scale, scale, 0);
-        freshCactus.transform.position = new Vector3(11f, -0.15f, 1f);
-        freshCactus.GetComponent<Rigidbody2D>().velocity = Vector3.left * 5;
+        freshCactus.transform.localScale = new Vector3(scale, scale, 0); //tamaño
+        freshCactus.transform.position = new Vector3(14, Random.Range(-0.27f, 0), 1);
+        freshCactus.GetComponent<Rigidbody2D>().velocity = Vector3.left * (scale + 5);
+        Debug.Log("Created cactus");
     }
 
 }
