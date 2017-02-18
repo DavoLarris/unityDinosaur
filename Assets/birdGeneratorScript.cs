@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class birdGeneratorScript : MonoBehaviour {
     public GameObject bird;
-    private float birdPerSecond = 0.5f;
+    private float birdPerSecond = 0.1f;
 
     // Use this for initialization
     void Start () {
@@ -23,10 +23,10 @@ public class birdGeneratorScript : MonoBehaviour {
     private void spawnBird()
     {
         GameObject freshBird = Instantiate(bird, transform.position, Quaternion.identity) as GameObject;
-        float scale = Random.Range(2, 4);
+        float scale = Random.Range(1, 2);
         freshBird.transform.localScale = new Vector3(scale, scale, 0);
-        freshBird.transform.position = new Vector3(14, 4, 1);
-        freshBird.GetComponent<Rigidbody2D>().velocity = Vector3.left * 2;
+        freshBird.transform.position = new Vector3(14, Random.Range(4, 1), 1);
+        freshBird.GetComponent<Rigidbody2D>().velocity = Vector3.left * 5;
         Debug.Log("Created bird");
     }
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class cactusScript : MonoBehaviour {
-    public Animator anim;
 
 
 	// Use this for initialization
@@ -16,19 +15,4 @@ public class cactusScript : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name == "dinosaur")
-        {
-            anim.SetTrigger("dead");
-            Debug.Log("Animation");
-            if (gamePoints.points > gamePoints.hiScorePoints)
-            {
-                gamePoints.hiScorePoints = gamePoints.points;
-            }
-        }
-        Debug.Log("Game Over! points: " + gamePoints.points);
-        //Application.LoadLevel("GameOver");
-    }
 }
