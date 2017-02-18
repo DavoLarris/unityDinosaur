@@ -83,8 +83,7 @@
     <Compile Include="Assets\cloudScript.cs" />
     <Compile Include="Assets\destroyScript.cs" />
     <Compile Include="Assets\dinosaourScript.cs" />
-    <Compile Include="Assets\gamePoints.cs" />
-    <Compile Include="Assets\gameResult.cs" />
+    <Compile Include="Assets\retryScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

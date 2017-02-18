@@ -5,13 +5,22 @@ using UnityEngine;
 public class cloudScript : MonoBehaviour {
     public GameObject cloud;
     private float cloudsPerSecond = 0.5f;
+    private GameObject freshCloud;
 
     // Use this for initialization
     void Start () {
-        float limit = cloudsPerSecond * Time.deltaTime;
-        if (Random.value < limit)
+        if (dinosaourScript.isDead == false)
         {
-            spawnCloud();
+            float limit = cloudsPerSecond * Time.deltaTime;
+            if (Random.value < limit)
+            {
+                spawnCloud();
+            }
+        }
+        else
+        {
+            if (freshCloud != null)
+                freshCloud.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
     }
 	
@@ -26,7 +35,7 @@ public class cloudScript : MonoBehaviour {
 
     private void spawnCloud()
     {
-        GameObject freshCloud = Instantiate(cloud, transform.position, Quaternion.identity) as GameObject;
+        freshCloud = Instantiate(cloud, transform.position, Quaternion.identity) as GameObject;
         float scale = Random.Range(1, 5);
         freshCloud.transform.localScale = new Vector3(scale, scale, 0); //tamaño
         freshCloud.transform.position = new Vector3(14, Random.Range(1, 4),1); 

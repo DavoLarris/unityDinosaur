@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class dinosaourScript : MonoBehaviour
 {
     private Animator anim;
     private int speed = 20;
     public KeyCode keyUp, keyDown, keySpace;
+    public static bool isDead;
+    private Vector2 tocuhOrigin = -Vector2.one;
 
     // Use this for initialization
     void Start()
@@ -18,26 +21,28 @@ public class dinosaourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(keyUp) || Input.GetKeyDown(keySpace))
+        if (isDead == false)
         {
-            Debug.Log("Space was pressed");
-            this.GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(keyUp) || Input.GetKeyDown(keySpace))
+            {
+                Debug.Log("Space was pressed");
+                this.GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
+            }
+            this.transform.rotation = Quaternion.identity; //estabilizacion
         }
-        this.transform.rotation = Quaternion.identity; //estabilizacion
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "deadly")
         {
             anim.SetBool("dead", true);
+            isDead = true;
             Debug.Log("Animation");
-            if (gamePoints.points > gamePoints.hiScorePoints)
-            {
-                gamePoints.hiScorePoints = gamePoints.points;
-            }
+            yield return new WaitForSeconds(3f);
+            SceneManager.LoadScene("gameOverScene");
         }
-        Debug.Log("Game Over! points: " + gamePoints.points);
-        //Application.LoadLevel("GameOver");
+        
     }
+
 }
